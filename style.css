@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+* {font-family: "Playfair Display", serif;}
+body{
+     background-repeat: no-repeat;
+     background-size: cover;  
+}
+:root{
+    --bg-color:#f1f1f1;
+    --text:#009e60;
+    --white:#fff;
+    --active:#DCDCDC;
+    --active-dark:#D3D3D3
+    --normal:#555;
+}
+header{
+    width: 80%;
+  height: 10%;
+  background-color: rgba(0, 0, 0, 0.25); /* Black with 50% opacity */
+  padding: 20px;
+  color: white;
+  border-radius: 10px; 
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 10%;
+    a{
+        text-decoration: none;
+        color: #2e8b57;
+    }
+}
+.logo{
+    cursor:pointer;
+    font-size: 30px;
+    letter-spacing: 1px;
+    text-transform:capitalize;
+    font-weight: bold;
+    color: #009e60;
+    margin-right:auto;
+}
+.page{
+    text-transform:capitalize;
+    border:black;
+    border-radius:PX;
+    font-family: "Playfair Display", serif;
+    margin: 0;padding: 0;
+    list-style: none;
+    font-size: 40px;
+    }
+.page li{
+    display: inline-block;
+    padding: 0px 20px;
+    font-size: 18px;
+}    
+.page li a.active{
+    color: var(--active);
+    transition: 0.5s;
+}
+.page li a:hover{
+    color:#FF8C00;
+
+}
+.active{
+    padding:15px 25px;
+    background-color:#9fe2bf;
+    border-radius: 50px;
+    color: #009e00;;
+    transition: 0.5s;
+        font-weight: bolder;
+}
+.active:hover{
+    background-color:#FFA500;
+}
+.front{
+    width: 300px;
+  height: 200px;
+  background-color: rgba(0, 0, 0, 0.5); /* Black with 50% opacity */
+  padding: 20px;
+  color: white;
+  border-radius: 10px; 
+}
+ .front a{
+    text-decoration: none;
+    font-family: serif;
+    background: grey;
+    border-radius: 10px;
+    color:white;
+ }
+ .tradition{
+    padding: 15px 25px;
+    font-size: larger;
+   text-transform: capitalize;
+   color:black;
+   text-shadow: #06e471a9 1px 1PX;
+    letter-spacing: 1px;
+    display: inline-flex;
+}
+.tradition h3{
+    text-align:left;
+}
+ .tradition img{
+    align-items: center;
+    width: 80%;
+    height: 10%;
+    background-color: rgba(0, 0, 0, 0.5); /* Black with 50% opacity */
+    padding: 20px;
+    color: white;
+    border-radius: 10px; 
+    display: inline block;
+     width: 25%;
+    height: 25%;
+    border-radius: 30px;
+    padding: 2px;
+    margin: 10px;
+    border: #FF8C00 10px 0px;
+ }  
+.box{
+    margin-top: 10px;
+    margin-right: 25px;
+    display: inline-flex;
+    text-align: center;
+    padding:33px;
+    background-color: #bdf5d8;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.specials{
+     color:white;
+}
